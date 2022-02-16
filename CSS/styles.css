@@ -92,3 +92,32 @@ p.hero-text {
     display: flex;
     flex: 1 1 0;
 }
+
+/* Info */
+
+
+
+
+
+/*Quote*/
+
+
+
+
+/*call to action*/
+
+
+.call-button {
+    background-color: #3882F6;
+    border-color: white;
+    border-width: 1px;
+    color: white;
+    border-radius: 8px;
+    padding: 8px;
+    width: 100px;
+    border-color:#1F2937; 
+    border: none;
+}
+
+
+/* footer */

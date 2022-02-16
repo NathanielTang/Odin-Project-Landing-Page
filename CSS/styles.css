@@ -15,7 +15,9 @@ body {
     background-color: #1F2937;
     flex: 1;
     align-items: center;
-    padding: 8px;
+    padding: 8px 200px;   /* adjusted padding so that heading is inline iwht the 
+                            this website is awesome! text. Had to add together the padding for the text box and
+                             the container box for the hero section */
 }
 
 .header-logo {
@@ -62,14 +64,14 @@ h1.hero-text {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: bolder;
-    max-width: 300px;
+    max-width: 400px;
     margin: 0;
 }
 
 p.hero-text {
     font-size: 18px;
     color: #E5E7EB;
-    max-width: 300px;
+    max-width: 400px;
 }
 
 .hero-button {
@@ -95,29 +97,126 @@ p.hero-text {
 
 /* Info */
 
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    gap: 24px;
+    margin-bottom: 50px;
+}
 
+.info-header {
+    font-weight: bold;
+    font-size: 36px;
+    color:#1F2937;
+}
 
+.info-img {
+    display: flex;
+    width: 650px;
+    justify-content: space-around;
+}
 
+.info-box {
+    height: 100px;
+    width: 100px;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+}
 
+.info-text {
+    font-size: 12px;
+    max-width: 100px;
+    font-weight: lighter;
+    color: lightslategray;
+}
 /*Quote*/
 
+div.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    flex-direction: column;
+}
 
+p.quote {
+    width: 600px;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+    font-style: italic;
+    padding-bottom: 0;
+}
 
-
+p.quote-author {
+    text-align: right;
+    width: 600px;               /* had to add width to move text to the right of the above text */
+    font-weight: bold;
+    font-size: 24px;
+    padding-top: 0;
+}
 /*call to action*/
 
+ .call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.call-blue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    margin: 50px 100px;
+    border-radius: 8px;
+    gap: 150px;
+    padding: 36px 0px;
+    width: 60em;
+}
+
+.call-text {
+    display: flex;
+    flex-direction: column;
+    color: white
+}
+
+.call-action {
+    font-size: 24px;
+}
+
+.call-subtext {
+    font-size: 12px;
+    font-weight: lighter;
+}
 
 .call-button {
     background-color: #3882F6;
     border-color: white;
-    border-width: 1px;
+    border-width: 2px;
+    border-style: solid;
     color: white;
     border-radius: 8px;
     padding: 8px;
     width: 100px;
-    border-color:#1F2937; 
-    border: none;
 }
 
 
 /* footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 24px;
+}
+
+
+
+/* font is slightly off; it is a "heavier" version of the correct font */
